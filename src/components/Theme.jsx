@@ -10,10 +10,10 @@ const darkTheme = createTheme({
       main: "#ff4081", // Ярко-розовый
     },
     background: {
-      default: "#ffffff", // Глубокий черный фон
-      paper: "#1e1e1e", // Чуть светлее для карточек
+      default: "#1e1e1e", // Чуть светлее для карточек
+      paper: "#ffffff", // Глубокий черный фон
       boxShadow: 'inset 0 0 15px rgba(255, 23, 68, 0.5)',
-    },  
+    },
     text: {
       primary: "#ffffff",
       secondary: "#000000",
@@ -23,5 +23,7 @@ const darkTheme = createTheme({
     fontFamily: "Arial, sans-serif", // Можно поменять на свой
   },
 });
+
+
 
 export default darkTheme;

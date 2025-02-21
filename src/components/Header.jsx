@@ -35,7 +35,7 @@ const Header = () => {
         
         {/* Навигация */}
         <Box sx={{ display: { xs: "none", md: "flex" } }}>
-          <Button color="inherit">Проэкты</Button>
+          <Button color="inherit">Проекты</Button>
           <Button color="inherit">Обо мне</Button>
           <Button color="inherit">Навыки</Button>
           <Button color="inherit">Контакт</Button>
@@ -55,10 +55,10 @@ const Header = () => {
           <MenuIcon />
         </IconButton>
         <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose}>
-          <MenuItem onClick={handleMenuClose}>Projects</MenuItem>
-          <MenuItem onClick={handleMenuClose}>About</MenuItem>
-          <MenuItem onClick={handleMenuClose}>Skills</MenuItem>
-          <MenuItem onClick={handleMenuClose}>Contact</MenuItem>
+          <MenuItem onClick={handleMenuClose}>Проекты</MenuItem>
+          <MenuItem onClick={handleMenuClose}>Обо мне</MenuItem>
+          <MenuItem onClick={handleMenuClose}>Навыки</MenuItem>
+          <MenuItem onClick={handleMenuClose}>Контакт</MenuItem>
         </Menu>
       </Toolbar>
     </AppBar>
