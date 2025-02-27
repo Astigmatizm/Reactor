@@ -10,6 +10,7 @@ const projects = [
   { title: "Internet Shop Dj", link: "https://github.com/Astigmatizm/bboard_proj/tree/lesson_49" },
   { title: "Internet Shop C#", link: "https://github.com/Astigmatizm/InternetShop" },
   { title: "Mini Notion", link: "https://github.com/Astigmatizm/mini-clone-notion/tree/notion-list" },
+  { title: "Player", link: "https://github.com/Astigmatizm/spot/tree/player" },
 ];
 
 const NeonCard = styled(Card)({
